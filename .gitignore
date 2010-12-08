@@ -1,0 +1,13 @@
+build
+*.mdf
+*.ldf
+~*
+myutil.sh
+results
+src/CommonAssemblyInfo.cs
+*.swp
+*.pidb
+*.userprefs
+resources
+*ReSharper*
+TestResult.xml

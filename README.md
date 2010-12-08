@@ -1,4 +1,4 @@
-Omar
+Umar
 ====
 An authorization framework similar to CanCan for ASP.NET MVC
 
