@@ -57,7 +57,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbilityBaseTests.cs" />
+    <Compile Include="CanTests.cs" />
+    <Compile Include="Mocks\MockAbility.cs" />
+    <Compile Include="Mocks\MockResource.cs" />
+    <Compile Include="Mocks\MockUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{4FB0F62F-D4C9-4591-9392-E8B6188697D4}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
